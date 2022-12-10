@@ -8,12 +8,12 @@
 
 int degree(int X, int Y)
 {
-int rezult = 1;
-for (int i = 0; i < Y; i++)
-{
-    rezult = rezult * X;
-}
-return rezult;
+    int rezult = 1;
+    for (int i = 0; i < Y; i++)
+    {
+        rezult = rezult * X;
+    }
+    return rezult;
 }
 
 Console.WriteLine("Введите число A: ");
@@ -24,4 +24,4 @@ int B = Convert.ToInt32(Console.ReadLine());
 
 
 Console.WriteLine("Результат возведения в степень числа А в степень В: ");
-Console.WriteLine( degree(A, B));
+Console.WriteLine(degree(A, B));
